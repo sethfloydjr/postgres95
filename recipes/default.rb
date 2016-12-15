@@ -9,12 +9,12 @@
 
 
 
-#install postgres95 from psql repo
-execute 'postgres95_yum' do
-	command 'rpm -Uvh https://download.postgresql.org/pub/repos/yum/9.5/redhat/rhel-6-x86_64/pgdg-ami201503-95-9.5-3.noarch.rpm'
-end
-
-#install postgres95 from new repo
-execute 'postgres95_install_rhel' do
-	command 'yum -y install postgresql95-devel'
+script 'install_something' do
+  interpreter 'bash'
+  user 'root'
+  cwd '/temp'
+  code <<-EOH
+  rpm -Uvh https://download.postgresql.org/pub/repos/yum/9.5/redhat/rhel-6-x86_64/pgdg-ami201503-95-9.5-3.noarch.rpm
+  yum -y install postgresql95
+  EOH
 end
