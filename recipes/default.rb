@@ -16,5 +16,5 @@ end
 
 #install postgres95 from new repo
 execute 'postgres95_install_rhel' do
-	command 'yum -y install postgres95'
+	command 'yum -y install postgresql95-devel'
 end
