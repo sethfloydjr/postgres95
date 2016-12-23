@@ -1,8 +1,8 @@
 #
-# Cookbook Name:: postgres95
+# Cookbook Name:: postgresql-95
 # Recipe:: default
 #
-# Copyright 2016, Terminus
+# Copyright 2016, 
 #
 # All rights reserved - Do Not Redistribute
 #
