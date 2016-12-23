@@ -12,15 +12,15 @@ TODO: List your cookbook requirements. Be sure to include any requirements this 
 e.g.
 ### Platforms
 
-- SandwichOS
+- RHEL or Debian
 
 ### Chef
 
-- Chef 12.0 or later
+- Chef 11.0 or later
 
 ### Cookbooks
 
-- `toaster` - postgres95 needs toaster to brown your bagel.
+- `default`
 
 ## Attributes
 
