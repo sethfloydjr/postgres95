@@ -1,6 +1,6 @@
 # postgres95 Cookbook
 
-Cookbook for installing postgresql-95 on RHEL or Debian OSs
+Cookbook for installing postgresql-95 on RHEL or Debian OSs. At the time this was written the public OS repos did not have this version.
 
 ## Requirements
 
