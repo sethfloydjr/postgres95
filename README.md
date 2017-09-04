@@ -1,6 +1,6 @@
 # postgres95 Cookbook
 
-Cookbook for installing postgresql-95 on RHEL or Debian OSs. At the time this was written the public OS repos did not have this version.
+Cookbook for installing postgresql-95 on RHEL or Debian OSs. At the time this was written the public OS repos did not have this version. It was only used as a bandaid while migrating from Opsworks 11 to a full Chef server system.
 
 ## Requirements
 
@@ -10,7 +10,7 @@ Cookbook for installing postgresql-95 on RHEL or Debian OSs. At the time this wa
 
 ### Chef
 
-- Chef 11.0 or later
+- Chef 11.0
 
 ### Cookbooks
 
